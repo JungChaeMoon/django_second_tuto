@@ -11,7 +11,9 @@ from bookmark.models import Bookmark
 
 
 class BookmarkLV(ListView):
+    template_name = 'bookmark/bookmark_list.html'
     model = Bookmark
 
 class BookmarkDV(DetailView):
+    template_name = 'bookmark/bookmark_detail.html'
     model = Bookmark

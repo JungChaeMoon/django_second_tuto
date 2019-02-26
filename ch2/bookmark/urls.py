@@ -1,11 +1,9 @@
 
 
-from django.conf.urls import include, url
-from django.contrib import admin
-
+from django.conf.urls import url
 from bookmark.views import BookmarkLV, BookmarkDV
 
 urlpatterns = [
-    url('', BookmarkLV.as_view(), name='index'),
-    url('(?P<pk>\d+)/$', BookmarkDV.as_view(), name= 'detail'),
+    url(r'^$', BookmarkLV.as_view(), name='index'),
+    url(r'^(?P<pk>\d+)/$', BookmarkDV.as_view(), name='detail'),
 ]
