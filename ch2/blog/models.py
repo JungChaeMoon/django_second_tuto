@@ -12,7 +12,7 @@ class Post(models.Model):
     create_date = models.DateField('Create_date', auto_now=True,)
     modify_date = models.DateField('Modify_date', auto_now=True)
 
-    class  Meta:
+    class Meta:
         verbose_name = 'post'
         verbose_name_plural = 'posts'
         db_table = 'my_post'
