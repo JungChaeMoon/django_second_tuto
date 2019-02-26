@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b15d01f3-588d-4750-bcd1-b3b5887d970a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/bookmark/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/bookmark/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/bookmark/templates/bookmark/bookmark_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/bookmark/templates/bookmark/bookmark_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_project" beforeDir="false" afterPath="$PROJECT_DIR$/../test_project" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="395">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -30,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/ch2/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/ch2/bookmark/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -66,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/ch2/bookmark/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -83,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2/bookmark/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -91,6 +91,24 @@
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch2/bookmark/templates/bookmark/bookmark_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/contrib/admin/static/admin/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="771" column="1" selection-start-line="771" selection-start-column="1" selection-end-line="771" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,6 +136,7 @@
         <option value="$PROJECT_DIR$/ch2/bookmark/urls.py" />
         <option value="$PROJECT_DIR$/ch2/mysite/urls.py" />
         <option value="$PROJECT_DIR$/ch2/bookmark/views.py" />
+        <option value="$PROJECT_DIR$/ch2/bookmark/templates/bookmark/bookmark_detail.html" />
       </list>
     </option>
   </component>
@@ -150,6 +169,21 @@
               <item name="test2_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="test2_project" type="462c0819:PsiDirectoryNode" />
               <item name="ch2" type="462c0819:PsiDirectoryNode" />
+              <item name="bookmark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2_project" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2" type="462c0819:PsiDirectoryNode" />
+              <item name="bookmark" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test2_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test2_project" type="462c0819:PsiDirectoryNode" />
+              <item name="ch2" type="462c0819:PsiDirectoryNode" />
+              <item name="bookmark" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="bookmark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,12 +234,12 @@
       <workItem from="1551084265331" duration="157000" />
       <workItem from="1551084437516" duration="3074000" />
       <workItem from="1551147941783" duration="1216000" />
-      <workItem from="1551156727700" duration="3598000" />
+      <workItem from="1551156727700" duration="4256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8950000" />
+    <option name="totallyTimeSpent" value="9608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -262,7 +296,7 @@
     <entry file="file://$PROJECT_DIR$/ch2/bookmark/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -272,7 +306,7 @@
     <entry file="file://$PROJECT_DIR$/ch2/bookmark/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -282,7 +316,7 @@
     <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -306,7 +340,7 @@
     <entry file="file://$PROJECT_DIR$/ch2/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
           </folding>
@@ -320,6 +354,20 @@
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/contrib/admin/static/admin/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="771" column="1" selection-start-line="771" selection-start-column="1" selection-end-line="771" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2/bookmark/templates/bookmark/bookmark_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
