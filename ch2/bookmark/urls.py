@@ -1,7 +1,7 @@
 
 
 from django.conf.urls import url
-from bookmark.views import BookmarkLV, BookmarkDV
+from .views import BookmarkLV, BookmarkDV
 
 urlpatterns = [
     url(r'^$', BookmarkLV.as_view(), name='index'),
