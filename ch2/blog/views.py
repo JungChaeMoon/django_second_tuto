@@ -1,25 +1,39 @@
 from django.shortcuts import render
-from django.views.generic import *
+from django.views.generic import ListView, DetailView
+from django.views.generic.dates import ArchiveIndexView, YearArchiveView, MonthArchiveView
+from django.views.generic.dates import DayArchiveView, TodayArchiveView
+
+from .models import Post
 # Create your views here.
 
 class PostLV(ListView):
-    pass
+    model = Post
+    template_name = 'blog/post_all.html'
+    context_object_name = 'posts'
+    paginate_by = 2
 
 class PostDV(DetailView):
-    pass
+    model = Post
+    template_name = 'blog/post_detail.html'
 
 class PostAV(ArchiveIndexView):
-    pass
+    model = Post
+    date_field = 'modify_date'
+    template_name = 'blog/post_archive.html'
 
 class PostYAV(YearArchiveView):
-    pass
+    model = Post
+    date_field = 'modify_date'
+    template_name = 'blog/post_year_archive.html'
 
 class PostMAV(MonthArchiveView):
-    pass
+    model = Post
+    template_name = 'blog/post_month_archive.html'
+    date_field = 'modify_date'
 
 class PostDAV(DayArchiveView):
-    pass
-
+    model = Post
+    date_field = 'modify_date'
 class PostTAV(TodayArchiveView):
-    pass
-
+    model = Post
+    date_field = 'modify_date'

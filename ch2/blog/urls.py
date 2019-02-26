@@ -8,7 +8,7 @@ urlpatterns=[
     #/post/
     url(r'^post/$', PostLV.as_view(), name='post_list'),
     #/post/django-example/
-    url(r'^post/(?P<slug>[-\w]+)/$', name='post+_detail'),
+    url(r'^post/(?P<slug>[-\w]+)/$', name='post_detail'),
     #/archive
     url(r'^archive/$', PostAV.as_view(), name='post_archive'),
     #/2012/
