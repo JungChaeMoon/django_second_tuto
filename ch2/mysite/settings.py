@@ -25,7 +25,7 @@ SECRET_KEY = 'ldu8(^=vedb6+v6%kcx24!_&@vacln+*27ux7pc1n=cuml%d_1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['loscalhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
