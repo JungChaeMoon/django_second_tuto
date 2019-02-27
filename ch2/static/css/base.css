@@ -6,8 +6,8 @@ body {
 /*PAGE STRUCTURE*/
 
 div#header {
-    position:absolute;;
-    top:0px;
+    position:absolute;
+    top: 0px;
     left: 0px;
     height: 30px;
     width: 100%;
@@ -30,7 +30,7 @@ div#menu {
 
 div#content {
     position: absolute;
-    top: 7px;
+    top: 70px;
     left: 50px;
     right: 50px;
 }
@@ -83,7 +83,7 @@ div#menu > li {
 }
 
 /*pulldown menu*/
-divmenu li ul {
+div#menu li ul {
     display: none;
     position: absolute;
     margin: 0;

@@ -6,7 +6,7 @@
     <title>{% block title %}Django Web Programming{% endblock %}</title>
 {% load staticfiles %}
 <link rel="stylesheet" type="text/css" href="{% static "css/base.css" %}"/>
-<link rel="stylesheet" type="text/css" href="{% block extrastyle %}{% endblock %}"/>
+<link rel="stylesheet" type="text/css" href="{% block extrastyle %}{% endblock extrastyle %}"/>
 
 </head>
 
@@ -14,7 +14,7 @@
 
 <div id="header">
     <h2 class="maintitle">Easy&amp;Fast Django Web Programming</h2>
-    <h4 class="welcome">Welcom, <a href="#">shkim</a> /
+    <h4 class="welcome">Welcome, <a href="#">chaemoon</a> /
         <a href="#">Change Password</a> /
         <a href="#">Logout</a>
     </h4>
@@ -49,6 +49,7 @@
 </div>
 
 {% block content %}{% endblock %}
+
 {% block footer %}{% endblock %}
 
 
