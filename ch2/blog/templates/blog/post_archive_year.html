@@ -2,9 +2,8 @@
 
 <ul>
     {% for date in date_list %}
-        <li style="display:inline;">
-            <a href="{% url 'blog:post_month_archive' year|date:'Y' date|date:'b' %}">{{ date|date:"F" }}</a></li>
-
+    <li style="display:inline;">
+        <a href="{% url 'blog:post_month_archive' year|date:'Y' date|date:'b' %}">{{ date|date:"F" }}</a></li>
     {% endfor %}
 </ul>
 

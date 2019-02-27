@@ -2,7 +2,7 @@
 
 <p class="other_posts">
     {% if object.get_previous_by_modify_date %}
-        <a href="{{ object.get.previos_post.get_absolute_url }}" title="View next post">&laquo;--{{ object.get_previous_post }}</a>
+        <a href="{{ object.get_previous_post.get_absolute_url }}" title="View previous post">&laquo;--{{ object.get_previous_post }}</a>
     {% endif %}
 
     {% if object.get_next_by_modify_date %}
