@@ -9,7 +9,7 @@ class Post(models.Model):
     slug = models.SlugField('SLUG', max_length=50, unique=True, null=True, allow_unicode=True, help_text="one word for title alias.")
     description = models.CharField('DESCRIPTION', max_length=100, blank=True, help_text="simple text")
     content = models.TextField('CONTENT', null=True)
-    create_date = models.DateField('Create_date', auto_now=True,)
+    create_date = models.DateField('Create_date', auto_now_add=True,)
     modify_date = models.DateField('Modify_date', auto_now=True)
 
     class Meta:
