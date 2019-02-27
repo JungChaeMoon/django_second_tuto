@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b15d01f3-588d-4750-bcd1-b3b5887d970a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_project" beforeDir="false" afterPath="$PROJECT_DIR$/../test_project" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,16 +44,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state relative-caret-position="283">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="e#365#370#0#HTML" expanded="true" />
                 <element signature="e#736#753#0#HTML" expanded="true" />
                 <element signature="e#952#969#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -106,18 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_year.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -144,13 +141,13 @@
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_month.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_year.html" />
-        <option value="$PROJECT_DIR$/ch2/mysite/settings.py" />
         <option value="$PROJECT_DIR$/ch2/blog/views.py" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_day.html" />
         <option value="$PROJECT_DIR$/ch2/blog/urls.py" />
         <option value="$PROJECT_DIR$/ch2/mysite/urls.py" />
         <option value="$PROJECT_DIR$/ch2/mysite/views.py" />
         <option value="$PROJECT_DIR$/ch2/templates/base.html" />
+        <option value="$PROJECT_DIR$/ch2/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -256,12 +253,12 @@
       <workItem from="1551147941783" duration="1216000" />
       <workItem from="1551156727700" duration="21021000" />
       <workItem from="1551193454364" duration="2504000" />
-      <workItem from="1551241276360" duration="21690000" />
+      <workItem from="1551241276360" duration="22428000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50567000" />
+    <option name="totallyTimeSpent" value="51305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -483,13 +480,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_day.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -608,13 +598,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch2/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        <state relative-caret-position="283">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="e#365#370#0#HTML" expanded="true" />
             <element signature="e#736#753#0#HTML" expanded="true" />
             <element signature="e#952#969#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
         </state>
       </provider>
     </entry>
