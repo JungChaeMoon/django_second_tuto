@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}post_search.html{% endblock %}
+
+{% block content %}
+    <div id="content">
+    <form action="">
+        <h1>Blog Search</h1>
+        Search word: <input type="text">  <input type="submit">
+        {% for object in object_list %}
+            <h3>{{ object.title }}</h3>
+            <li>{{ object.modify_date|date:"N d, Y"}}</li>
+            <p>{{ object.description }}</p>
+        {% endfor %}
+
+    </form>
+
+
+    </div>
+{% endblock %}
