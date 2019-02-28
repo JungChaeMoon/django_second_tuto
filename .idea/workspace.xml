@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b15d01f3-588d-4750-bcd1-b3b5887d970a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch2/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_project" beforeDir="false" afterPath="$PROJECT_DIR$/../test_project" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,16 +35,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2/blog/templates/blog/post_detail.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="540">
+              <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -143,7 +141,6 @@
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_year.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_month.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_archive_day.html" />
-        <option value="$PROJECT_DIR$/ch2/mysite/settings.py" />
         <option value="$PROJECT_DIR$/ch2/blog/models.py" />
         <option value="$PROJECT_DIR$/ch2/blog/views.py" />
         <option value="$PROJECT_DIR$/ch2/templates/tagging/tagging_post_list.html" />
@@ -153,6 +150,7 @@
         <option value="$PROJECT_DIR$/ch2/blog/templates/tagging/tagging_cloud.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/tagging/tagging_post_list.html" />
         <option value="$PROJECT_DIR$/ch2/blog/urls.py" />
+        <option value="$PROJECT_DIR$/ch2/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -281,12 +279,12 @@
       <workItem from="1551193454364" duration="2504000" />
       <workItem from="1551241276360" duration="24272000" />
       <workItem from="1551281766503" duration="5121000" />
-      <workItem from="1551326870795" duration="17798000" />
+      <workItem from="1551326870795" duration="18474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76068000" />
+    <option name="totallyTimeSpent" value="76744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -556,13 +554,6 @@
     <entry file="file://$PROJECT_DIR$/ch2/=0.4.5">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/db/models/fields/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
@@ -688,6 +679,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="47" column="11" selection-start-line="47" selection-start-column="11" selection-end-line="47" selection-end-column="11" />
         </state>
       </provider>
     </entry>
