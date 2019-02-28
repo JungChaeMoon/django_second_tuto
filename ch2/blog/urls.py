@@ -19,4 +19,8 @@ urlpatterns=[
     url(r'^(?P<yeat>\d{4})/(?P<month>[a-z]{3})/(?P<day>\d{1,2})/$', PostDAV.as_view(), name='post_day_archive'),
     #/today/
     url(r'^today/$', PostTAV.as_view(), name='post_today_archive'),
+    #tag/
+    url(r'^tag/$', TagTV.as_view(), name='tagging_cloud.html'),
+    #tagname
+
 ]
