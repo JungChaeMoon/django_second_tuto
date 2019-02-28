@@ -1,3 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Post_detail{% endblock %}
+
+{% block content %}
+    <div id="content">
 <h2>{{ object.title }}</h2>
 
 <p class="other_posts">
@@ -17,3 +23,5 @@
 <div calss="body">
     {{ object.content|linebreaks }}
 </div>
+    </div>
+{% endblock %}

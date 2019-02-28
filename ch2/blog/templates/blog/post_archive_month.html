@@ -1,6 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Post_month_archive{% endblock %}
+
+{% block content %}
+    <div id="content">
 <h1>Post Archive for {{ month|date:"N, Y" }}</h1>
 
-<div>
+
     <ul>
         {% for post in object_list %}
          <li>{{ post.modify_date|date:"Y-m-d" }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -8,3 +14,5 @@
         {% endfor %}
     </ul>
 </div>
+
+{% endblock %}

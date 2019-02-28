@@ -20,6 +20,7 @@ class PostAV(ArchiveIndexView):
     model = Post
     date_field = 'modify_date'
     template_name = 'blog/post_archive.html'
+    make_object_list = True
 
 class PostYAV(YearArchiveView):
     model = Post
@@ -31,6 +32,7 @@ class PostMAV(MonthArchiveView):
     model = Post
     template_name = 'blog/post_archive_month.html'
     date_field = 'modify_date'
+    make_object_list = True
 
 class PostDAV(DayArchiveView):
     model = Post

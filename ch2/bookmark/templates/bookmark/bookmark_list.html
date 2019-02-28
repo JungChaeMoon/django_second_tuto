@@ -1,21 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title> Django Bookmark List</title>
-</head>
+{% extends 'base.html' %}
 
-<body>
+{% block title %}Djnago Bookmark list{% endblock %}
 
-<div id = "content">
-    <h1>Bookmark List</h1>
-
+{% block content %}
+    <div id="content">
     <ul>
         {% for bookmark in object_list %}
-            <li><a href ="{% url 'bookmark:detail' pk=bookmark.id %}">{{ bookmark }}</a></li>
+            <li><a href="{% url 'bookmark:detail' bookmark.id %}">{{ bookmark.title }}</a></li>
         {% endfor %}
-
     </ul>
-</div>
-
-</body>
-</html>
+    </div>
+{% endblock %}
