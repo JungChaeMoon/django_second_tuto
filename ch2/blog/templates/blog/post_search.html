@@ -4,16 +4,26 @@
 
 {% block content %}
     <div id="content">
-    <form action="">
         <h1>Blog Search</h1>
-        Search word: <input type="text">  <input type="submit">
-        {% for object in object_list %}
-            <h3>{{ object.title }}</h3>
-            <li>{{ object.modify_date|date:"N d, Y"}}</li>
-            <p>{{ object.description }}</p>
-        {% endfor %}
+        <form action="." mothod="'post">{% csrf_token %}
+        {{ form.as_table }}
+            <input type="submit" value="submit"  />
+        </form>
 
-    </form>
+        <br/><br/>
+
+        {% if object_list %}
+            {% for post in object_list %}
+                <h2><a hrerf="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+                {{ post.modify_date|date:"N d, Y" }}
+                <p>{{ post.description }}</p>
+            {% endfor %}
+
+        {% elif  search_term %}
+            <b><i>Search Word({{ search_term }}) Not Found</i></b>
+        {% endif %}
+
+
 
 
     </div>
