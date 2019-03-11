@@ -22,7 +22,7 @@ from .views import UserCreateView, UserCreateDoneTV
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^accounts/', include('django.contrib.auth.urls')),
+    url(r'^accounts/', include('django.contrib.auth.urls'),namespace='log'),
     url(r'^accounts/register/$', UserCreateView.as_view(), name='register'),
     url(r'^accounts/register/done/$', UserCreateDoneTV.as_view(), name='register_done'),
     url(r'^$', HomeView.as_view(), name='home'),

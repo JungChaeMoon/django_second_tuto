@@ -14,10 +14,19 @@
 
 <div id="header">
     <h2 class="maintitle">Easy&amp;Fast Django Web Programming</h2>
-    <h4 class="welcome">Welcome, <a href="#">chaemoon</a> /
-        <a href="#">Change Password</a> /
-        <a href="#">Logout</a>
+    {% if user.is_active %}
+    <h4 class="welcome">Welcome,
+        <strong>{% firstof user.get_short_name user.get_username %}</strong> /
+        <a href="{% url 'log:password_change' %}">Change Password</a> /
+        <a href="{% url 'log:logout' %}">Logout</a>
     </h4>
+    {% else %}
+        <h4 class="welcome">Welcome, Anonymous  /
+        <a href="{% url 'log:login' %}">Login</a>
+        <a href="{% url 'log:register' %}">Register</a>
+        </h4>
+    {% endif %}
+
 </div>
 
 <div id ="menu">
