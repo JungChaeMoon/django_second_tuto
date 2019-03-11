@@ -5,8 +5,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Algorithm" beforeDir="false" afterPath="$PROJECT_DIR$/../Algorithm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/blog/templates/blog/post_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/blog/templates/blog/post_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch2/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch2/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_project" beforeDir="false" afterPath="$PROJECT_DIR$/../test_project" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,44 +24,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="435">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch2/blog/templates/blog/post_search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="196" column="78" selection-start-line="196" selection-start-column="78" selection-end-line="196" selection-end-column="78" />
+            <state relative-caret-position="1910">
+              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
             </state>
           </provider>
         </entry>
@@ -78,10 +52,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/core/handlers/exception.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/utils/autoreload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4425">
+              <caret line="308" column="16" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/core/management/commands/runserver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2250">
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
             </state>
           </provider>
         </entry>
@@ -98,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/utils/deprecation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="2070">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
             </state>
           </provider>
         </entry>
@@ -139,7 +149,6 @@
         <option value="$PROJECT_DIR$/ch2/templates/tagging/tagging_cloud.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/tagging/tagging_cloud.html" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/tagging/tagging_post_list.html" />
-        <option value="$PROJECT_DIR$/ch2/mysite/settings.py" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_detail.html" />
         <option value="$PROJECT_DIR$/ch2/static/css/base.css" />
         <option value="$PROJECT_DIR$/ch2/blog/form.py" />
@@ -148,6 +157,7 @@
         <option value="$PROJECT_DIR$/ch2/blog/urls.py" />
         <option value="$PROJECT_DIR$/ch2/blog/views.py" />
         <option value="$PROJECT_DIR$/ch2/blog/templates/blog/post_search.html" />
+        <option value="$PROJECT_DIR$/ch2/mysite/settings.py" />
       </list>
     </option>
   </component>
@@ -163,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,32 +289,43 @@
       <workItem from="1551326870795" duration="25378000" />
       <workItem from="1551364983384" duration="4900000" />
       <workItem from="1551747810280" duration="979000" />
-      <workItem from="1551749086031" duration="429000" />
+      <workItem from="1551749086031" duration="1029000" />
+      <workItem from="1551843703802" duration="1842000" />
+      <workItem from="1552302549359" duration="1355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89956000" />
+    <option name="totallyTimeSpent" value="93753000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.17468214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.17910448" />
       <window_info id="Structure" order="1" sideWeight="0.5015674" side_tool="true" weight="0.18518518" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32946378" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32831" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38643703" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38557994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3291536" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -345,15 +366,10 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/base.py</url>
           <line>83</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Python.DjangoServer">
-        <watch expression="date" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -385,30 +401,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/contrib/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/contrib/admin/sites.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="519" column="14" selection-start-line="519" selection-start-column="14" selection-end-line="519" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/bookmark/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch2/bookmark/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -656,31 +648,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/base.py">
+    <entry file="file://$PROJECT_DIR$/ch2/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="720">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/blog/views.py">
+    <entry file="file:///usr/lib/python3.5/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        <state relative-caret-position="313">
+          <caret line="1607" selection-start-line="1607" selection-end-line="1607" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
+    <entry file="file://$PROJECT_DIR$/ch2/blog/templates/blog/post_search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="196" column="78" selection-start-line="196" selection-start-column="78" selection-end-line="196" selection-end-column="78" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -698,6 +683,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4425">
+          <caret line="308" column="16" selection-start-line="308" selection-start-column="16" selection-end-line="308" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/core/management/commands/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/lib/python3.5/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13125">
@@ -707,22 +713,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/utils/deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2040">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="2070">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/../../envs/test2_project/lib/python3.5/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="442">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2/blog/templates/blog/post_search.html">
+    <entry file="file://$PROJECT_DIR$/ch2/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="435">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1910">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
         </state>
       </provider>
     </entry>
